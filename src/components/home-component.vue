@@ -1,7 +1,7 @@
 <template>
   <div class="mt-5">
     <h1 class="error-title">DISCULPE 👻</h1>
-    <p class="error-body">No conseguimos encontrar esta página</p>
+    <p class="error-body mt-3">No conseguimos encontrar esta página</p>
 
     <div class="mt-5">
       <img :src="getImageUrl" alt="Foto" height="400" />
@@ -39,7 +39,9 @@ export default {
 <style scoped>
 .error-title {
   font-weight: 300;
+
 }
+
 .error-body {
   font-family: 'IBM Plex Mono', monospace;
 }
